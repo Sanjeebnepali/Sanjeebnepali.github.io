@@ -1,0 +1,25 @@
+[
+  {
+    "id": "kawaii-baby-ai-wallpapers",
+    "enabled": true,
+    "packageName": "com.kawaiibaby.wallpapers",
+    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/kawaii-baby-banner.jpg",
+    "emoji": "🎀",
+    "title": "Kawaii Baby AI Wallpapers HD",
+    "text": "Cute AI wallpapers for your phone. Free on Google Play.",
+    "button": "GET IT"
+  },
+  {
+    "id": "keasy-korea-made-easy",
+    "enabled": true,
+    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/keasy-banner.jpg",
+    "title": "K Easy - Korea Made Easy"
+  },
+  {
+    "id": "gamereels",
+    "enabled": true,
+    "packageName": "com.asrafdev.gamereels",
+    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/gamereels-banner.jpg",
+    "title": "GameReels"
+  }
+]

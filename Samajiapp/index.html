@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Shimeji Pet</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-light: #EEF2FF;
+            --text-dark: #0F172A;
+            --text-muted: #475569;
+            --bg-gradient: linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 50%, #F5F3FF 100%);
+            --card-bg: #FFFFFF;
+            --border-color: #E2E8F0;
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--primary-light);
+            margin-bottom: 30px;
+        }
+        .app-badge {
+            display: inline-block;
+            background: var(--primary-light);
+            color: var(--primary);
+            font-size: 14px;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-dark);
+            letter-spacing: -0.5px;
+        }
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+        .section {
+            margin-bottom: 28px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p, ul {
+            font-size: 15px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .highlight-box {
+            background: #F0FDF4;
+            border: 1px solid #BBF7D0;
+            border-radius: 14px;
+            padding: 18px;
+            margin: 20px 0;
+            color: #166534;
+            font-weight: 500;
+        }
+        .highlight-box strong {
+            color: #15803D;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        @media (max-width: 640px) {
+            body { padding: 16px 10px; }
+            .container { padding: 24px 18px; border-radius: 18px; }
+            h1 { font-size: 26px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="app-badge">🐾 Shimeji Pet App</span>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Effective Date: September 23, 2026</p>
+        </div>
+
+        <div class="highlight-box">
+            🛡️ <strong>Your data stays on your device wherever possible.</strong> A few optional features use Google services: sign-in for limited-edition pets, rewarded ads, push messages and purchases. We do not sell your personal information. The details are below.
+        </div>
+
+        <div class="section">
+            <h2>📌 1. What we collect and why</h2>
+            <p>Shimeji Pet works without an account. Most of what the app knows about you stays on your phone.</p>
+            <ul>
+                <li><strong>Only on your device:</strong> your chosen pets and roster, settings, level, XP, streak, missions, daily-login and Mystery Box progress, pets you have unlocked or are trying, and any to-do notes you write. We do not receive these.</li>
+                <li><strong>We never ask for</strong> your name, email address, phone number, contacts or location. The app has <strong>no analytics or crash-reporting SDK</strong>.</li>
+                <li>Like any app that uses the internet, the Google services below may receive technical data such as your IP address and device information when they do their job.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💾 2. Stored on your device</h2>
+            <p>This data is kept on your device using Android <code>SharedPreferences</code>:</p>
+            <ul>
+                <li>Selected companion pets and your pet-slot roster (2 slots free; up to 4 by watching ads or Shimeji Plus)</li>
+                <li>Walking speed and screen-boundary settings</li>
+                <li>Status bar battery emoji preferences</li>
+                <li>Your level, XP, streak, missions, daily-login board, Mystery Boxes and time-limited pet access</li>
+                <li>To-do notes and alarms you create</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🔐 3. Optional Google sign-in and limited-edition pets</h2>
+            <p>Signing in is optional. It is only needed to subscribe to a limited-edition Heroic pet (only 5 people can own each one). If you subscribe:</p>
+            <ul>
+                <li>We store your <strong>Google account ID, your Google display name and the date your subscription is paid until</strong> in Google Firebase (Cloud Firestore).</li>
+                <li>Your <strong>display name is shown publicly</strong> on that pet's page as an owner, for as long as you hold the spot. You are told this and asked to agree before you pay.</li>
+                <li>When your subscription ends, your spot is released (or taken over by someone else) and your name disappears from the list.</li>
+                <li>Google Firebase Authentication also holds the Google account details used to sign you in, such as your email address. We do not use or display your email.</li>
+                <li><strong>Signing in does not create a synced account.</strong> Your pets, level, XP and settings (section 2) stay on this device and are never linked to your Google account. Signing out, or signing in with a different Google account on the same device, does not change, hide or move them — the sign-in is only used to hold your limited-edition pet subscription.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📣 4. Rewarded ads</h2>
+            <p>Some features let you <strong>choose</strong> to watch a rewarded ad, for example to use a pet for 30 days or earn a Mystery Box. Ads are only shown when you choose to watch one, and never over other apps or on your home screen.</p>
+            <ul>
+                <li>Ads are provided by <strong>Google AdMob</strong>. AdMob may collect and use your device's <strong>advertising ID</strong>, IP address and device information to deliver and measure ads and to prevent fraud.</li>
+                <li>Where the law requires it (for example in the European Economic Area and the UK) you are first shown Google's consent form, and no ad is requested until you have chosen.</li>
+                <li>You can reset or delete your advertising ID, or turn off ad personalization, in <strong>Android Settings → Privacy → Ads</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💳 5. Purchases and subscriptions</h2>
+            <p>Payments are handled entirely by <strong>Google Play</strong>. We never see or store your card or payment details. The app asks Google Play which subscriptions are active on your Google account so it can unlock the right pets, and restore them on a new phone.</p>
+            <p>To check purchases and restore them reliably we use <strong>RevenueCat</strong> (RevenueCat, Inc.). RevenueCat receives an anonymous app user ID, what you bought and when, and basic device and country information. It does not receive your name, email address or card details from us. See <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>🔔 6. Push messages</h2>
+            <p>The app uses Google Firebase Cloud Messaging so we can send news and announcements. This gives your device a token and subscribes it to two topics: one for everyone and one for your app language (for example <code>lang_en</code>). You can turn notifications off at any time in Android Settings.</p>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ 7. Android system permissions</h2>
+            <p>To provide floating pets and widgets, Shimeji Pet requests these permissions:</p>
+            <ul>
+                <li><code>SYSTEM_ALERT_WINDOW</code> (Display over other apps): lets desktop pets walk and float over your home screen and apps. No window content is read or recorded.</li>
+                <li><code>FOREGROUND_SERVICE</code>: keeps pet animations running. A notification is shown while pets are active.</li>
+                <li><code>POST_NOTIFICATIONS</code>: shows the pets notification, mission rewards and news.</li>
+                <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>: downloading pets, notices, ads, sign-in and purchases.</li>
+                <li><code>AD_ID</code> and Android's ad-services permissions: used by Google AdMob as described in section 4.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🌐 8. Other services the app contacts</h2>
+            <ul>
+                <li><strong>openpets.dev</strong>: artwork for downloadable community pets. No device identifiers or tokens are attached.</li>
+                <li><strong>Our GitHub Pages website</strong>: public files such as announcements and promotions for our other apps. Like any web host, GitHub may log ordinary request data such as an IP address. We do not add personal data to these requests.</li>
+                <li><strong>Google Play, RevenueCat, Firebase and AdMob</strong>: as described above. See Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🗑️ 9. Keeping, deleting and your rights</h2>
+            <ul>
+                <li><strong>On your device:</strong> erase everything in the app via <em>Settings ➔ Account &amp; Data Deletion ➔ Delete &amp; Reset Local Data</em>, or clear the app's storage in Android Settings, or uninstall the app.</li>
+                <li><strong>Sign-in and owner record:</strong> they are removed automatically when your subscription ends and your spot is released. To have them deleted sooner (including your sign-in account), email us and we will do it.</li>
+                <li><strong>Ads:</strong> manage your advertising ID in Android Settings, and withdraw ad consent through Google's consent form when it is offered again.</li>
+                <li>If you live in the EEA, the UK or a similar region, you have the right to access, correct, delete and object to the use of your personal data, and to withdraw consent. Email us to use these rights. Our legal bases are: your contract with us (subscriptions and limited-edition ownership), your consent (ads, where required) and our legitimate interest in showing who owns a limited-edition pet and keeping the app secure.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>👶 10. Children's privacy</h2>
+            <p>Shimeji Pet is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has given us personal information, contact us and we will delete it.</p>
+        </div>
+
+        <div class="section">
+            <h2>🔄 11. Changes to this policy</h2>
+            <p>We may update this policy. The effective date above will change, and important changes will be announced in the app.</p>
+        </div>
+
+        <div class="section">
+            <h2>📩 12. Contact us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <ul>
+                <li>Email: <a href="mailto:laligurasgardeningclub@gmail.com">laligurasgardeningclub@gmail.com</a></li>
+                <li>Discord Community: <a href="https://discord.gg/a6gkrnyYn" target="_blank">https://discord.gg/a6gkrnyYn</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Shimeji Pet. All rights reserved. | Hosted on GitHub Pages
+        </div>
+    </div>
+</body>
+</html>
