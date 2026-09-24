@@ -12,7 +12,8 @@
   {
     "id": "keasy-korea-made-easy",
     "enabled": true,
-    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/keasy-banner.jpg",
+    "packageName": "com.keasy.mobilekeasy",
+    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/keasy-banner-v2.jpg",
     "title": "K Easy - Korea Made Easy"
   },
   {
