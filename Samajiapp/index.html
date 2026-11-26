@@ -124,7 +124,7 @@
         <div class="header">
             <span class="app-badge">🐾 Shimeji Pet App</span>
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Effective Date: September 25, 2026</p>
+            <p class="last-updated">Effective Date: November 26, 2026</p>
         </div>
 
         <div class="highlight-box">
@@ -155,19 +155,25 @@
 
         <div class="section">
             <h2>🔐 3. Optional Google sign-in and limited-edition pets</h2>
-            <p>Signing in is optional. It is only needed to subscribe to a limited-edition Heroic pet (only 5 people can own each one). If you subscribe:</p>
+            <p>Signing in is optional. It is only needed to take one of the limited seats of a Heroic pet (only 5 people can hold each one at a time). A seat is taken by watching rewarded ads (it lasts 7 days and can be renewed) or, when subscriptions are on sale, by subscribing. If you take a seat:</p>
             <ul>
-                <li>We store your <strong>Google account ID, your Google display name and the date your subscription is paid until</strong> in Google Firebase (Cloud Firestore).</li>
-                <li>Your <strong>display name is shown publicly</strong> on that pet's page as an owner, for as long as you hold the spot. You are told this and asked to agree before you pay.</li>
-                <li>When your subscription ends, your spot is released (or taken over by someone else) and your name disappears from the list.</li>
+                <li>We store your <strong>Google account ID, your Google display name and the date your seat lasts until</strong> in Google Firebase (Cloud Firestore).</li>
+                <li>Your <strong>display name is shown publicly</strong> on that pet's page as an owner, for as long as you hold the spot. You are told this and asked to agree before you take the seat.</li>
+                <li>When your seat ends (or your subscription ends), your spot is released (or taken over by someone else) and your name disappears from the list.</li>
                 <li>Google Firebase Authentication also holds the Google account details used to sign you in, such as your email address. We do not use or display your email.</li>
-                <li><strong>Signing in does not create a synced account.</strong> Your pets, level, XP and settings (section 2) stay on this device and are never linked to your Google account. Signing out, or signing in with a different Google account on the same device, does not change, hide or move them — the sign-in is only used to hold your limited-edition pet subscription.</li>
+                <li><strong>Signing in does not create a synced account.</strong> Your pets, level, XP and settings (section 2) stay on this device and are never linked to your Google account. Signing out, or signing in with a different Google account on the same device, does not change, hide or move them — the sign-in is only used to hold your limited-edition pet seat.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>📣 4. Rewarded ads</h2>
-            <p>Some features let you <strong>choose</strong> to watch a rewarded ad, for example to use a pet for 30 days or earn a Mystery Box. Ads are only shown when you choose to watch one, and never over other apps or on your home screen.</p>
+            <h2>📣 4. Ads</h2>
+            <p>The app is free and is paid for by ads. You will see three kinds, always inside the app and never over other apps or on your home screen:</p>
+            <ul>
+                <li><strong>Rewarded ads</strong> that you <strong>choose</strong> to watch, for example to use a pet for 24 hours, take a Heroic seat or earn a Mystery Box.</li>
+                <li><strong>Full-screen ads</strong> shortly after the app opens, when you come back to it after a while, or right after you put your pets on screen. They are limited to one every few minutes and never appear during the first-run tour.</li>
+                <li><strong>Small ad cards and banners</strong> inside some app screens.</li>
+            </ul>
+            <p>You can remove them by taking Shimeji Plus, where it is offered.</p>
             <ul>
                 <li>Ads are provided by <strong>Google AdMob</strong>. AdMob may collect and use your device's <strong>advertising ID</strong>, IP address and device information to deliver and measure ads and to prevent fraud.</li>
                 <li>Where the law requires it (for example in the European Economic Area and the UK) you are first shown Google's consent form, and no ad is requested until you have chosen.</li>
@@ -193,22 +199,28 @@
                 <li><code>SYSTEM_ALERT_WINDOW</code> (Display over other apps): lets desktop pets walk and float over your home screen and apps. No window content is read or recorded.</li>
                 <li><code>FOREGROUND_SERVICE</code>: keeps pet animations running. A notification is shown while pets are active.</li>
                 <li><code>POST_NOTIFICATIONS</code>: shows the pets notification, mission rewards and news.</li>
-                <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>: downloading pets, notices, ads, sign-in and purchases.</li>
+                <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>: downloading pets, notices, ads, movie picks, sign-in and purchases.</li>
                 <li><code>AD_ID</code> and Android's ad-services permissions: used by Google AdMob as described in section 4.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>🌐 8. Other services the app contacts</h2>
+            <h2>🎬 8. Movie picks (TMDB)</h2>
+            <p>When you tell a Platinum pet your mood, the app may ask <strong>The Movie Database (TMDB)</strong> for a movie to suggest. The request contains the mood you chose (for example "happy"), your phone's language setting, a page number and, late at night, a limit on film length, and TMDB also sees your IP address, as any website does. It does <strong>not</strong> contain your name, account, advertising ID or the favorite titles you typed in. Only family-friendly films (PG-13 or below) are requested. If TMDB cannot be reached, a built-in list is used instead. See <a href="https://www.themoviedb.org/privacy-policy" target="_blank">https://www.themoviedb.org/privacy-policy</a>.</p>
+            <p><em>This product uses the TMDB API but is not endorsed or certified by TMDB.</em></p>
+        </div>
+
+        <div class="section">
+            <h2>🌐 9. Other services the app contacts</h2>
             <ul>
                 <li><strong>openpets.dev</strong>: artwork for downloadable community pets. No device identifiers or tokens are attached.</li>
                 <li><strong>Our GitHub Pages website</strong>: public files such as announcements and promotions for our other apps. Like any web host, GitHub may log ordinary request data such as an IP address. We do not add personal data to these requests.</li>
-                <li><strong>Google Play, RevenueCat, Firebase and AdMob</strong>: as described above. See Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>.</li>
+                <li><strong>Google Play, RevenueCat, Firebase, AdMob and TMDB</strong>: as described above. See Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>🗑️ 9. Keeping, deleting and your rights</h2>
+            <h2>🗑️ 10. Keeping, deleting and your rights</h2>
             <ul>
                 <li><strong>On your device:</strong> erase everything in the app via <em>Settings ➔ Account &amp; Data Deletion ➔ Delete &amp; Reset Local Data</em>, or clear the app's storage in Android Settings, or uninstall the app.</li>
                 <li><strong>Sign-in account and owner record:</strong> delete them yourself in the app via <em>Settings ➔ Account ➔ Delete my account</em> (Google asks you to confirm first). This deletes your sign-in account and gives up your owner spots, so your name disappears from the owner lists at once. <a href="delete-account.html">How account deletion works</a>, including how to ask us by email if you cannot use the app. Deleting the account does not cancel a Google Play subscription, so cancel that first. Without deleting, your owner record is also removed automatically when your subscription ends and your spot is released.</li>
@@ -218,17 +230,17 @@
         </div>
 
         <div class="section">
-            <h2>👶 10. Children's privacy</h2>
+            <h2>👶 11. Children's privacy</h2>
             <p>Shimeji Pet is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has given us personal information, contact us and we will delete it.</p>
         </div>
 
         <div class="section">
-            <h2>🔄 11. Changes to this policy</h2>
+            <h2>🔄 12. Changes to this policy</h2>
             <p>We may update this policy. The effective date above will change, and important changes will be announced in the app.</p>
         </div>
 
         <div class="section">
-            <h2>📩 12. Contact us</h2>
+            <h2>📩 13. Contact us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us:</p>
             <ul>
                 <li>Email: <a href="mailto:laligurasgardeningclub@gmail.com">laligurasgardeningclub@gmail.com</a></li>
