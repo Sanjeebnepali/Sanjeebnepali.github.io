@@ -27,9 +27,7 @@
     "id": "dropy-pipe-puzzle-gravity",
     "enabled": true,
     "packageName": "com.dropy.gardendrop",
-    "emoji": "💧",
-    "title": "Dropy: Pipe Puzzle & Gravity",
-    "text": "Pick the right pipe, flip gravity, 900 levels. Free on Google Play.",
-    "button": "PLAY FREE"
+    "bannerUrl": "https://sanjeebnepali.github.io/Samajiapp/promo/dropy-banner.jpg",
+    "title": "Dropy: Pipe Puzzle & Gravity"
   }
 ]
